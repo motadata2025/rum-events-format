@@ -24,7 +24,7 @@
     "buffer_starvation_duration": 500,
     "media_start_delay": 800
   },
-  "_dd": {
+  "_md": {
     "format_version": 2
   }
 }
