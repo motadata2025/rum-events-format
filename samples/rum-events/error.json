@@ -79,7 +79,7 @@
     "status": "connected",
     "effective_type": "4g"
   },
-  "_dd": {
+  "_md": {
     "format_version": 2
   }
 }

@@ -104,7 +104,7 @@ export declare type RumActionEvent = CommonProperties & ViewContainerSchema & {
     /**
      * Internal properties
      */
-    _dd?: {
+    _md?: {
         /**
          * Action properties
          */
@@ -556,7 +556,7 @@ export declare type RumLongTaskEvent = CommonProperties & ActionChildProperties 
     /**
      * Internal properties
      */
-    readonly _dd?: {
+    readonly _md?: {
         /**
          * Whether the long task should be discarded or indexed
          */
@@ -776,7 +776,7 @@ export declare type RumResourceEvent = CommonProperties & ActionChildProperties 
     /**
      * Internal properties
      */
-    readonly _dd?: {
+    readonly _md?: {
         /**
          * span identifier in decimal format
          */
@@ -1100,7 +1100,7 @@ export declare type RumViewEvent = CommonProperties & ViewContainerSchema & Stre
     /**
      * Internal properties
      */
-    readonly _dd: {
+    readonly _md: {
         /**
          * Version of the update of the view event
          */
@@ -1205,7 +1205,7 @@ export declare type RumVitalEvent = CommonProperties & ViewContainerSchema & {
     /**
      * Internal properties
      */
-    readonly _dd?: {
+    readonly _md?: {
         /**
          * Internal vital properties
          */
@@ -1345,7 +1345,7 @@ export interface CommonProperties {
     /**
      * Tags of the event in key:value format, separated by commas (e.g. 'env:prod,version:1.2.3')
      */
-    readonly ddtags?: string;
+    readonly mdtags?: string;
     /**
      * Session properties
      */
@@ -1581,7 +1581,7 @@ export interface CommonProperties {
     /**
      * Internal properties
      */
-    readonly _dd: {
+    readonly _md: {
         /**
          * Version of the RUM event format
          */
