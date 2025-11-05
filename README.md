@@ -9,7 +9,7 @@ The format must stay backward compatible in order to be able to validate old eve
 - New fields must not be set as required
 - Fields definition must not be updated, new fields must be created instead
 
-Breaking changes to the format must be reflected by a major version update in `_dd.format_version` property.
+Breaking changes to the format must be reflected by a major version update in `_md.format_version` property.
 
 After editing any schema, you must re-generate the JS + TS definitions ([see below](#build-js-sources--ts-definitions)).
 
@@ -17,15 +17,15 @@ After editing any schema, you must re-generate the JS + TS definitions ([see bel
 
 Consuming projects are encouraged to use a _yarn github_ reference as dependency, e.g:
 
-    yarn add rum-events-format@DataDog/rum-events-format#workspace=rum-events-format
+    yarn add rum-events-format@motadata365/rum-events-format#workspace=rum-events-format
 
 Updating to the latest change is possible with _yarn up_, e.g:
 
-    yarn up rum-events-format@DataDog/rum-events-format#workspace=rum-events-format
+    yarn up rum-events-format@motadata365/rum-events-format#workspace=rum-events-format
 
 It is also possible to specify the exact commit hash to use, e.g:
 
-    yarn up "rum-events-format@DataDog/rum-events-format#workspace=rum-events-format&commit=COMMIT-HASH"
+    yarn up "rum-events-format@motadata365/rum-events-format#workspace=rum-events-format&commit=COMMIT-HASH"
 
 # Tools
 
